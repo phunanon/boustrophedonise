@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://boustrophedonise/skin/skin.css" type="text/css"?> 
+<!DOCTYPE boustrophedonise SYSTEM "chrome://boustrophedonise/locale/translations.dtd">
+<overlay id="sample" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+		<script src="boustrophedonise.js" />
+		
+		<keyset>
+			<key id="boustrophedonise-run-key" modifiers="alt shift" key="b" oncommand="boustrophedonise.run()"/>
+		</keyset>
+		
+		<toolbarpalette id="BrowserToolbarPalette">
+			<toolbarbutton id="boustrophedonise-toolbar-button" label="Boustrophedonise" tooltiptext="&boustrophedonise;" oncommand="boustrophedonise.run()"/>
+		</toolbarpalette>
+</overlay>

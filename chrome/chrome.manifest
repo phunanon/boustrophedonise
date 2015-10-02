@@ -1,0 +1,8 @@
+content     boustrophedonise    chrome/content/
+content     boustrophedonise    chrome/content/ contentaccessible=yes
+overlay chrome://browser/content/browser.xul chrome://boustrophedonise/content/browser.xul
+
+locale	boustrophedonise	en-UK	locale/en-UK/
+
+skin	boustrophedonise	classic/1.0	skin/
+style	chrome://global/content/customizeToolbar.xul	chrome://boustrophedonise/skin/skin.css
