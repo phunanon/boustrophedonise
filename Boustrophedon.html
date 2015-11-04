@@ -38,7 +38,6 @@ function bou()
     testChar.id = "testChar" + bou_i;
     document.body.innerHTML += testChar.outerHTML;
     var cwidth = document.getElementById("testChar" + bou_i).offsetWidth / 128;
-    console.log(cwidth);
     var pwidth = (actualpwidth / cwidth); //Now width in amount of chars
     var splitp = p.textContent.match(new RegExp(".{1," + Math.floor(pwidth) + "}","g"));
     var joinedp = '';
